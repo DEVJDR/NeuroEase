@@ -16,7 +16,6 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
 
 interface RouteProps {
   href: string;
@@ -53,7 +52,11 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
+             <img
+  src="src\assets\logo.png"  // Adjust the path if needed
+  alt="Logo"
+  className="mr-2 w-6 h-6"
+/>
              NeuroEase
             </a>
           </NavigationMenuItem>
