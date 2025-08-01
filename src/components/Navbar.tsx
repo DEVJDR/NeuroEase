@@ -16,6 +16,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
+import Logo from "../assets/logo.png"
 
 interface RouteProps {
   href: string;
@@ -53,7 +54,7 @@ export const Navbar = () => {
               className="ml-2 font-bold text-xl flex"
             >
              <img
-  src="src\assets\logo.png"  // Adjust the path if needed
+  src={Logo}  // Adjust the path if needed
   alt="Logo"
   className="mr-2 w-6 h-6"
 />
