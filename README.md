@@ -6,8 +6,8 @@ This repo hosts the **front-end landing page**, built to introduce the app, high
 
 ---
 
-## 🌐 Live Preview
+## 🌐  Preview
 
-[🔗 neuroease.app](https://neuroease.app) *(Replace with actual domain if deployed)*
+[🔗 neuroease.app](https://github.com/DEVJDR/NeuroEaseApp/releases) 
 
 
